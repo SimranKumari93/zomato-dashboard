@@ -18,7 +18,7 @@ Objectives
 
 ---
 
-##  Dataset
+Dataset
 
 The dataset includes two main files:
 
@@ -38,7 +38,7 @@ The dataset includes two main files:
 
 ---
 
-## 🛠️ Tools Used
+Tools Used
 
 - **Power BI Desktop**
 - **DAX** for calculated columns and measures
@@ -47,9 +47,9 @@ The dataset includes two main files:
 
 ---
 
-## Features and Visuals
+Features and Visuals
 
-### Key Dashboards
+Key Dashboards
 
 - **Top 10 Restaurants by Votes**  
   Displays the most popular restaurants.
@@ -65,21 +65,6 @@ The dataset includes two main files:
 
 - **Pie Chart of Online Delivery Availability**  
   Compares restaurants offering delivery vs. those that don’t.
-
----
-
-## Sample DAX Measures
-
-```dax
-Total Votes = SUM(cleaned_data[votes])
-Average Rating = AVERAGE(cleaned_data[Aggregate rating])
-Total Restaurants = DISTINCTCOUNT(cleaned_data[Restaurant ID])
-Online Delivery % = 
-DIVIDE(
-    CALCULATE(COUNTROWS(cleaned_data), cleaned_data[has_online_delivery] = 1),
-    COUNTROWS(cleaned_data)
-)
-Top 10 Votes = [Total Votes]  -- Use the "Total Votes" measure from earlier used filters to find the top 10 places by votes
 ---
 - ** Data Model***
 A relationship is created between the tables:
@@ -87,5 +72,19 @@ A relationship is created between the tables:
 cleaned_data[country_code] → country-code[Country Code] (Many-to-One)
 
 This allows for seamless analysis by country name instead of code.
+---
+Sample DAX Measures
+
+```dax
+1. Total Votes = SUM(cleaned_data[votes])
+2. Average Rating = AVERAGE(cleaned_data[Aggregate rating])
+3. Total Restaurants = DISTINCTCOUNT(cleaned_data[Restaurant ID])
+4. Online Delivery % = 
+DIVIDE(
+    CALCULATE(COUNTROWS(cleaned_data), cleaned_data[has_online_delivery] = 1),
+    COUNTROWS(cleaned_data)
+)
+Top 10 Votes = [Total Votes]  -- Use the "Total Votes" measure from earlier used filters to find the top 10 places by votes
+
 
 
