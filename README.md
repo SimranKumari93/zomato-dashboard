@@ -70,6 +70,7 @@ DIVIDE(
     COUNTROWS(cleaned_data)
 )
 Top 10 Votes = [Total Votes]  -- Use the "Total Votes" measure from earlier used filters to find the top 10 places by votes
+```
 
-
+![Dashboard](images/dashboard.jpg)
 
