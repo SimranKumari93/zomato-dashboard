@@ -5,23 +5,16 @@ Overview
 This Power BI project is an end-to-end data analysis and dashboard solution built using real-world restaurant data from India.
 The dashboard uncovers key insights into customer preferences, restaurant popularity, rating patterns, and geographic trends, 
 enabling data-driven decision-making for businesses in the food and hospitality industry.
-
 ---
-
 Objectives
-
 - Analyze restaurant performance based on votes, ratings, cost, and location.
 - Identify top-performing restaurants by votes and ratings.
 - Visualize rating distribution across different price ranges.
 - Explore the geographic spread of restaurant activity via interactive maps.
 - Simplify complex data for non-technical users via user-friendly visuals.
-
 ---
-
 Dataset
-
 The dataset includes two main files:
-
 1. **`cleaned_data.csv`**  
    Contains restaurant-level data such as:
    - Restaurant name
@@ -35,20 +28,15 @@ The dataset includes two main files:
 
 2. **`country-code.csv`**  
    Provides mapping between `country_code` and full country names.
-
 ---
-
 Tools Used
 
 - **Power BI Desktop**
 - **DAX** for calculated columns and measures
 - **Python** (for data cleaning, handling duplicates, data types, missing data)
 - **Map Visualizations** for geographic insights(through latitudes and longitudes)
-
 ---
-
 Features and Visuals
-
 Key Dashboards
 
 - **Top 10 Restaurants by Votes**  
