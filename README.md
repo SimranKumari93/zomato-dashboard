@@ -1,6 +1,7 @@
 #  Zomato Analytics Dashboard – Power BI Project
 
 Overview
+
 This Power BI project is an end-to-end data analysis and dashboard solution built using real-world restaurant data from India.
 The dashboard uncovers key insights into customer preferences, restaurant popularity, rating patterns, and geographic trends, 
 enabling data-driven decision-making for businesses in the food and hospitality industry.
