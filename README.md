@@ -37,19 +37,19 @@ Tools Used
 Features and Visuals
 Key Dashboards
 
-- Top 10 Restaurants by Votes 
+- Top 10 Restaurants by Votes :
   Displays the most popular restaurants.
 
-- Rating Distribution by Price Range 
+- Rating Distribution by Price Range :
   Uses a stacked column chart to show how ratings vary with price level.
 
-- Restaurant Count by Rating Text
+- Restaurant Count by Rating Text :
   Highlights sentiment distribution (e.g., "Excellent", "Good", "Poor").
 
-- Map of Total Votes by Country
+- Map of Total Votes by Country :
   Interactive map showing voting intensity by country.
 
-- Pie Chart of Online Delivery Availability
+- Pie Chart of Online Delivery Availability :
   Compares restaurants offering delivery vs. those that don’t.
 ---
 - Data Model
