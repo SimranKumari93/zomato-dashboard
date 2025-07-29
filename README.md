@@ -1,6 +1,6 @@
 #  Zomato Analytics Dashboard – Power BI Project
 
-## Overview
+Overview
 
 This Power BI project is an end-to-end data analysis and dashboard solution built using real-world restaurant data from India.
 The dashboard uncovers key insights into customer preferences, restaurant popularity, rating patterns, and geographic trends, 
@@ -8,17 +8,17 @@ enabling data-driven decision-making for businesses in the food and hospitality 
 
 ---
 
-## 🏁 Objectives
+Objectives
 
 - Analyze restaurant performance based on votes, ratings, cost, and location.
 - Identify top-performing restaurants by votes and ratings.
 - Visualize rating distribution across different price ranges.
-- Explore geographic spread of restaurant activity via interactive maps.
+- Explore the geographic spread of restaurant activity via interactive maps.
 - Simplify complex data for non-technical users via user-friendly visuals.
 
 ---
 
-## 🗃️ Dataset
+##  Dataset
 
 The dataset includes two main files:
 
@@ -47,9 +47,9 @@ The dataset includes two main files:
 
 ---
 
-## 📊 Features and Visuals
+## Features and Visuals
 
-### ✅ Key Dashboards
+### Key Dashboards
 
 - **Top 10 Restaurants by Votes**  
   Displays the most popular restaurants.
@@ -68,7 +68,7 @@ The dataset includes two main files:
 
 ---
 
-## 🧮 Sample DAX Measures
+## Sample DAX Measures
 
 ```dax
 Total Votes = SUM(cleaned_data[votes])
@@ -79,7 +79,7 @@ DIVIDE(
     CALCULATE(COUNTROWS(cleaned_data), cleaned_data[has_online_delivery] = 1),
     COUNTROWS(cleaned_data)
 )
-Top 10 Votes = [Total Votes]  -- Use the "Total Votes" measure from earlier used filters to find top 10 palces by votes
+Top 10 Votes = [Total Votes]  -- Use the "Total Votes" measure from earlier used filters to find the top 10 places by votes
 ---
 - ** Data Model***
 A relationship is created between the tables:
