@@ -1,31 +1,3 @@
-# import pandas as pd 
-
-# # load the dfset 
-# df = pd.read_csv("zomato.csv", encoding="ISO-8859-1")
-
-# print(df.head())
-# # delete duplicates 
-# df = df.drop_duplicates(inplace=True)
-
-# df.dropna(subset=["Cuisines"], inplace=True)
-# # # df.dropna(subset=["Cuisines"], inplace=True)
-# # # Display the first few rows of the dfset 
-
-# # # filter columns 
-# # df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
-
-# # # converting types 
-# # df['has_table_booking'] = df['has_table_booking'].astype('bool')
-# # df['has_online_delivery'] = df['has_online_delivery'].astype('bool')
-# # df['is_delivering_now'] = df['is_delivering_now'].astype('bool')
-# # df['votes'] = df.to_numeric(df['votes'], errors='coerce')
-
-# # df = df[df['aggregate_rating'] <= 5.0]
-
-# # df.reset_index(drop=True, inplace=True)
-
-# # df.to_csv("zomato_cleaned.csv", index=False)
-
 
 # new code snippet for data cleaning
 import pandas as pd
