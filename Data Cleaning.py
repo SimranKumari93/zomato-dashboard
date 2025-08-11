@@ -2,7 +2,6 @@
 import pandas as pd
 import uuid
 
-
 # Load with encoding fix
 df = pd.read_csv("zomato.csv", encoding="ISO-8859-1")
 
