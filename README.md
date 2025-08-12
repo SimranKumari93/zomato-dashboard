@@ -74,3 +74,4 @@ Top 10 Votes = [Total Votes]  -- Use the "Total Votes" measure from earlier used
 
 ![Dashboard](images/dashboard.jpg)
 
+For any query feel free to reach out to simrankumaribodhgaya93@gmail.com 
